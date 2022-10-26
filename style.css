@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-justify: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.gfg{
+    color: rgb(36, 170, 36);
+    cursor: none;
+    text-align: left;
+    padding-left: 8%;
+}
+
+span{
+    color: black;
+}
+
+.gfg:hover{
+    color: black;
+}
+
+.gfg:hover span{
+    color: green;
+}
+
+.personImg{
+    width: 50%;
+    margin: 70px auto 80px auto;
+}
+
+.picture{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.about{
+    text-align: center;
+    color: green;
+    line-height: 1;
+}
+
+.aboutDetail{
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 0%;
+}
+
+h2{
+    color: green;
+}
+
+h3{
+    color: green;
+}
+
+.line{
+    border: 10px solid green;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.social{
+    margin-top: 10px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+.skill-row {
+    margin: 100px auto 150px auto;
+    text-align: left;
+    text-align: justify;
+  }
+
+.winnImg {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row1 {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    text-align: justify;
+  }
+
+.projImg {
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+
