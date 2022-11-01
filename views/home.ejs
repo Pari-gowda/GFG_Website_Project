@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <a href="/" id="acitve" class="signin" > Sign In </a>
+<a  href="/register" id="inactive"  class="signin" >Sign up</a>
+
+    <!-- Icon -->
+    
+
+    <!-- Login Form -->
+    <form action="/" method="post">
+      <input type="text" id="login" class="fadeIn second" name="username" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" >
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="/register">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+<%- include('partials/footer') %>
+
+<!-- <div class="container toptext">
+  <h1>Welcome</h1>
+  <h2>Geeks for Geeks</h2>
+ 
+
+</div>
+
+
+<div class="center">
+<a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+<a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+</div> -->
