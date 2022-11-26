@@ -1,0 +1,152 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(0deg, #306b2f 50%, #cef1d7 50%);
+    /* background: -webkit-linear-gradient(0deg, #306b2f 50%, #17b834 50%);
+    background: linear-gradient(0deg, #306b2f 50%, #17b834 50%); */
+
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+  }
+/* background: #306b2f;
+background: -webkit-linear-gradient(0deg, #306b2f 0%, #17b834 100%);
+background: linear-gradient(0deg, #306b2f 0%, #17b834 100%);
+ */
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 70%;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #heading {
+    background-image: -webkit-linear-gradient(0deg, #cef1d7 50%,#306b2f 50%);
+    /* background-color: rgb(50, 203, 50); */
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    width: 30%;
+  }
+  
+  .cont {
+    min-height: 70px;
+    display: inline-block;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    align-items: flex-end;
+  }
+  
+  .cont:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .submission {
+    min-height: 40px;
+    width: 50px;
+    border-radius: 20%;
+    border-color: transparent;
+    background-color: #306b2f;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 70%;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #306b2f;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+  
+  footer {
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .delete,.sol {
+      width: 30px;
+      background-color: #306b2f;
+      color: #F1F1F1;
+      border-color:#306b2f;
+      border-radius: 30%;
+      text-align: center;
+  }
+
+  .solutionbox{
+    color: rgb(12, 4, 4);
+    background-color: #fff;
+    width: 50%;
+  }
+.cont2{
+ margin-right: 30px;
+}
+
+.solCont{
+  align-self: center;
+  text-align: center;
+}
+
+.solCont1{
+  background-color: #fff;
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 70%;
+}

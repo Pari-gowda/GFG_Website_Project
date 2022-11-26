@@ -1,0 +1,25 @@
+<%- include("header")-%>
+    <div class="container" id="heading">
+        <h1> <%= listItem %></h1>
+    </div>
+
+    <div class="container">
+
+        <%newKart.forEach(function(item){%>
+        <form action="/delete" method="post">
+            <div class="cont">
+                <div class="cont1"><p><%= item.question %></p></div>
+                <div class="cont2">
+                <button  class="delete" name="delete" value=<%=item._id%>>-</button>
+                <button  class="sol" formaction="/solution" name="sol" value="<%=item.question%>">sol</button>
+                </div>
+            </div>
+             <% })%>
+        </form>
+        
+    <form action="/" method="post">
+        <input type="text" name="newItem" class="textbox" placeholder="New Question" autocomplete="off">
+        <button class="submission" type="submit" name="list" value=<%= listItem %>>+</button>
+    </form>
+    </div>
+<%- include("footer")-%>

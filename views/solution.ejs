@@ -1,0 +1,14 @@
+<%- include("header")-%>
+
+<h3>Question: <%= theQuestion %> </h3>
+<form action="/solution" method="post">
+<textarea name="solutionbox" name="solutionbox" id="solutionbox"  cols="30" rows="10"></textarea>
+<button type="submit">+</button>
+</form>
+<div class="solCont"><
+<h1>Available Solutions</h1>
+<%theAnswer.forEach(function(item){%>
+<div class="solCont1"><%= item%></div>
+<% })%>
+<%- include("footer")-%>
+</div>
